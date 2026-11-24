@@ -118,6 +118,8 @@ Added
 Changed
 #######
 
+- ``hf_xet`` is now a dependency and Xet downloads from Hugging Face are enabled
+  again; ``huggingface_hub >= 2.1.0`` is required (#1357).
 - LLPR calibrates one factor for each property of each block of the targets
   (#1286).
 - The last-layer features of MACE and SPACE have the keys and components of their
